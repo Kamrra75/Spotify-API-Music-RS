@@ -1,6 +1,5 @@
-# Spotify-API-Music-RS
+# Spotify API based Music Recommendation System
 
-## Song Recommendation System
 This project is a song recommendation system that uses Fuzzy C-means clustering and cosine similarity to recommend songs based on a user's input. The system also provides recommendations for songs that are the opposite of the input song. The frontend is built with HTML and Flask, providing an interactive web interface for users to input their song and receive recommendations.
 
 ## Features
@@ -28,7 +27,7 @@ The main code is structured to include two core functionalities: song recommenda
 - **opposite_songs(song_name)**
   - Reads audio features from `data.csv`.
   - Performs Fuzzy C-means clustering.
-  - Recommends songs that are least similar based on cosine similarity.
+  - Recommends songs that are least similar based on cosine similarity to prevent genre oversaturation.
 
 ### Flask Routes
 - **index()**
