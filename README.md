@@ -4,7 +4,7 @@ This project is a song recommendation system that uses Fuzzy C-means clustering 
 
 ## Features
 - **Song Recommendation**: Recommends songs similar to a user-specified song based on audio features.
-- **Opposite Song Recommendation**: Suggests songs that are least similar to a user-specified song.
+- **Opposite Song Recommendation**: Suggests songs that are least similar to a user-specified song to prevent genre over-saturation.
 - **Interactive Web Interface**: Built using Flask and HTML for easy user interaction.
 
 ## Dependencies
